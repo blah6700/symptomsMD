@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* RESET COMPLETE */ 
+
+body {
+  background-image: url(../images/bg-pattern.png);
+  background-repeat: repeat;
+  background-color: #525252;
+
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  
+}
+
+#top {
+  height: 59px;
+  margin-top: 50px;
+
+  background-image: url(../images/bg-menu.png);
+  background-repeat: repeat-x;
+}
+
+#menu {
+  width: 810px;
+  margin: 0 auto;
+}
+
+#left-menu {
+  margin-left: 50px;
+  float: left;
+}
+
+#right-menu {
+  margin-left: 0px;
+  float: left;
+}
+
+#heart {
+  width: 131px;
+  height: 118px;
+
+  position: relative;
+  float: left;
+  margin-top: -30px;
+
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite; 
+}
+
+@-webkit-keyframes pulsate {
+    25% {-webkit-transform: scale(1.0, 1.0); opacity: 1.0;}
+    50% {-webkit-transform: scale(0.95, 0.95); opacity: 1.0;}
+    100% {-webkit-transform: scale(1.0, 1.0); opacity: 1.0;}
+}
+
+li {
+  float: left;
+  padding: 18px;
+}
+
+li a {
+  display: block;
+  width: 105px;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+
+  /*border-style: solid;
+  border-color: red;*/
+}
+
+li a:hover {
+  color: #ea1111;
+}
+
+li.on-page a {
+  color: #ea1111;
+}
+
+#content {
+
+}
+
+#footer {
+
+}
